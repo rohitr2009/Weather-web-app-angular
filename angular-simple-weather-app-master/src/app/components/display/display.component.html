@@ -1,0 +1,24 @@
+
+<div class="{{ (weather.isWarm)? 'warm': 'cool'}}"> 
+<div>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <div class="location-box">
+    <div class="location">
+      {{weather.city}},{{weather.country}}
+    </div>
+    <div class="date">{{weather.day}}</div>
+  </div>
+  <div class="weather-box">
+    <div class="temp">
+      {{weather.temperature}}°F
+    </div>
+    <div class="weathers">
+      {{weather.conditions}}
+    </div>
+  </div>
+</div>
+</div>
